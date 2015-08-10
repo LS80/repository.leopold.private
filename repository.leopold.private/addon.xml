@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.leopold.private" name="Leopold's Private Add-ons" version="3.0.0" provider-name="Leopold">
+  <extension point="xbmc.addon.repository" name="Leopold's Private Repository">
+    <info compressed="false">https://raw.github.com/LS80/repository.leopold.private/master/addons.xml</info>
+    <checksum>https://raw.github.com/LS80/repository.leopold.private/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.github.com/LS80/repository.leopold.private/master</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Leopold's private add-ons</summary>
+    <description>Add-ons from Leopold's private repository. For use by Leopold ONLY.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
